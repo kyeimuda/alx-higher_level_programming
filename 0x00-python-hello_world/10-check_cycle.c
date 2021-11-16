@@ -8,20 +8,23 @@
 
 int check_cycle(listint_t *list)
 {
-  if (list = NULL)
-    return 0;
-  
-  listint_t *first = list->next;
-  listint_t *second = list;
+listint_t *first = list;
+listint_t *second = list;
 
-  while (first != NULL && first->next != NULL && second != NULL)
-    {
-      if ( first == second)
-	{
-	  return 1;
-	}
-  first = first->next->next;
-  second = second->next;
-    }
-  return 0;
+if (list == NULL)
+{
+return (0);
+}
+second = second->next;
+ 
+while (first != NULL && second != NULL && second->next != NULL)
+{
+if ( first == second)
+{
+return 1;
+}
+first = first->nex;
+second = second->next->next;
+}
+return 0;
 }
