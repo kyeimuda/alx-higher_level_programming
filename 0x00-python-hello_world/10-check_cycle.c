@@ -23,7 +23,7 @@ if ( first == second)
 {
 return 1;
 }
-first = first->nex;
+first = first->next;
 second = second->next->next;
 }
 return 0;
