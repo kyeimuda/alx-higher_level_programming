@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def uppercase(str):
-    result = ''
+    result = str()
     for alphabet in str:
         index = ord(alphabet)
         if index >= 97 and index <= 122:
@@ -8,5 +8,5 @@ def uppercase(str):
         elif index >= 65 and index <= 90:
             result += chr(index)
         else:
-            result += chr(index))
+            result += chr(index)
     print('{}'.format(result))
