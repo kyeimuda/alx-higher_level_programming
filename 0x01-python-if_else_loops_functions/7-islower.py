@@ -1,4 +1,3 @@
-145 Bytes
 #!/usr/bin/python3
 def islower(c):
     alphabet = ord(c)
