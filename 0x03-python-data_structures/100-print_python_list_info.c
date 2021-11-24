@@ -13,5 +13,5 @@ void print_python_list_info(PyObject *p)
   printf("[*] Allocated = %lu\n", ((PyListObject *)p)->allocated);
 
   for (index = 0; index < PyList_Size(p); index++)
-    printf("Element %d: %s\n", ind, Py_TYPE(PyList_GetItem(p, index))->tp_name);
+    printf("Element %d: %s\n", index, Py_TYPE(PyList_GetItem(p, index))->tp_name);
 }
