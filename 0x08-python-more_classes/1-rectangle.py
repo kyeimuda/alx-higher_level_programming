@@ -1,13 +1,13 @@
-#!/usr/bin/python3                                        
-# 1-rectangle.py                                          
-"""                                                       
-A class that defines a Rectangle class.                   
-"""                                                       
-                                                          
-                                                          
-class Rectangle:                                          
-    """                                                   
-    the rectangle.                                        
+#!/usr/bin/python3
+# 1-rectangle.py
+"""
+A class that defines a Rectangle class.
+"""
+
+
+class Rectangle:
+    """
+    the rectangle.
     """
 
     def __init__(self, width=0, height=0):
