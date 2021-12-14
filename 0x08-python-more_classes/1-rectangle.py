@@ -10,7 +10,7 @@ class Rectangle:
     the rectangle.                                        
     """
 
-        def __init__(self, width=0, height=0):
+    def __init__(self, width=0, height=0):
         """instantiation of Rectangle.
         Args:
             width (int): The width of the rectangle.
