@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+This module defines a class student
+"""
+
+
 Student = __import__('10-student').Student
 
 student_1 = Student("John", "Doe", 23)
