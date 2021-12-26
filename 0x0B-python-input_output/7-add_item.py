@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 # 9-add_item.py
-"""
-This module defines a function that creates\
- an Object from a “JSON file
+"""Add all arguments to a Python list and save them to a file.
 """
 import sys
 
