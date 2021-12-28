@@ -1,14 +1,10 @@
-#!/usr/bin/pythhon3
-#8-class_to_json.py
-"""
-This module defines a function that returns\
- a json representation of an object
-"""
+#!/usr/bin/python3
+import json
 
 
-def class_to_json(obj):
+def load_from_json_file(filename):
     """
-    function that returns a json representation of\
-    the obj object
+    Creates an Object from a “JSON file”
     """
-    return obj.__dict__
+    with open(filename, "r", encoding="utf-8") as f:
+        return(json.load(f))
