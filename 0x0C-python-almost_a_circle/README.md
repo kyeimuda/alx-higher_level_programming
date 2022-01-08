@@ -1,4 +1,4 @@
-#0x0C. Python - Almost a circle#
+#0x0C. Python - Almost a circle
 This program is to get prepared for the AirBnB project.
 
 This project is written in the python programming language.
@@ -21,12 +21,12 @@ args and kwargs
 Serialization/Deserialization
 JSON
 
-##Base##
+**Base**
 Represents the "base" class for all other classes in the project
 
-##Rectangle##
+**Rectangle**
 Represents a rectangle. Inherits from Base
 
-##Square##
+**Square**
 Represents a square. Inherits from Rectangle
 
