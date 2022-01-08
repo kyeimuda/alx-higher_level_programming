@@ -1,4 +1,4 @@
-#0x0C. Python - Almost a circle
+# 0x0C. Python - Almost a circle
 This program is to get prepared for the AirBnB project.
 
 This project is written in the python programming language.
