@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// This script print a message if the first argument can be converted to an integer
+// This script print a message if the first argument can be converted to an integer.
 const myVar = process.argv[2];
 if (isNaN(myVar)) {
   console.log('Not a number');
