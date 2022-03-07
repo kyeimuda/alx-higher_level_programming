@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-a script that changes the name of a State object from the database hbtn_0e_6_usa
+A script that changes the name of a State object from the database hbtn_0e_6_usa.
 """
 if __name__ == '__main__':
     from model_state import Base, State
