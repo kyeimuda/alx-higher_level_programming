@@ -33,6 +33,6 @@ if __name__ == "__main__":
             print(", " + list, end="")
 
     if rows == []:
-        print(" ")
+        print("\n")
     cur.close()
     db.close()
