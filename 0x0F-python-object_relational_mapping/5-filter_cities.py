@@ -20,6 +20,9 @@ if __name__ == "__main__":
      ORDER BY cities.id ASC".format(stateSearch))
 
     rows = [r[0] for r in cur.fetchall()]
+    if rows == []:
+        print()
+        
     for row in rows:
         listLength = len(rows)
         if row == rows[0]:
@@ -32,7 +35,5 @@ if __name__ == "__main__":
             list = row
             print(", " + list, end="")
 
-    if rows == []:
-        print("\n")
     cur.close()
     db.close()
